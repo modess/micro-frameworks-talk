@@ -1,0 +1,13 @@
+{
+    "name": "micro-framework",
+    "autoload": {
+        "psr-4": {
+            "MicroFramework\\": "app/"
+        }
+    },
+    "require": {
+        "php-di/php-di": "^5.0",
+        "nikic/fast-route": "^0.6.0",
+        "aura/router": "^2.3"
+    }
+}
